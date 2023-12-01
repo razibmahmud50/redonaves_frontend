@@ -69,178 +69,179 @@
       </div>
     </header>
 
-
-    <div class="delivery">
-        <div class="delivery__inner container">
-            <a href="#" class="link-back-to-home">
-                <svg class="link-back-to-home__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M9.57 5.92993L3.5 11.9999L9.57 18.0699M20.5 11.9999H3.67" stroke="#00002E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                <span>Voltar para home</span> 
-            </a>
-            <div class="delivery-form">
-                <p class="delivery-form__title">Informe os campos abaixo para conseguirmos calcular a previsão de entrega</p>
-                <form class="form-redonaves">
-                    <div class="row form-group">
-                      <div class="col-md-6">
-                        <div class="mb-3">
-                            <label class="form-label">Estado de origem</label>
-                            <select class="form-select form-select-lg" aria-label="select box">
-                                <option selected>São Paulo - SP</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                              </select>
+    <div class="page-wrapper">
+      <div class="delivery">
+          <div class="delivery__inner container">
+              <a href="#" class="link-back-to-home">
+                  <svg class="link-back-to-home__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M9.57 5.92993L3.5 11.9999L9.57 18.0699M20.5 11.9999H3.67" stroke="#00002E" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  <span>Voltar para home</span> 
+              </a>
+              <div class="form-redonaves">
+                  <p class="form-header">Informe os campos abaixo para conseguirmos calcular a previsão de entrega</p>
+                  <form>
+                      <div class="row form-group">
+                        <div class="col-md-6">
+                          <div class="mb-3">
+                              <label class="form-label">Estado de origem</label>
+                              <select class="form-select form-select-lg" aria-label="select box">
+                                  <option selected>São Paulo - SP</option>
+                                  <option value="1">One</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                </select>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="selectFormOne" class="form-label">Estado de origem</label>
+                          <select class="form-select mb-3" aria-label="">
+                              <option selected>Clique para escolher a cidade</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="selectFormOne" class="form-label">Estado de destino</label>
+                          <select class="form-select mb-3" aria-label="">
+                              <option selected>Rio de Janeiro - RJ</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="selectFormOne" class="form-label">Cidade de destino</label>
+                          <select class="form-select mb-3" aria-label="Default select example">
+                              <option selected>Clique para escolher a cidade</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
                         </div>
                       </div>
-                      <div class="col-md-6">
-                        <label for="selectFormOne" class="form-label">Estado de origem</label>
-                        <select class="form-select mb-3" aria-label="">
-                            <option selected>Clique para escolher a cidade</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
+                      <div class="row">
+                          <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-submit">Sign in</button>
+                          </div>
                       </div>
-                      <div class="col-md-6">
-                        <label for="selectFormOne" class="form-label">Estado de destino</label>
-                        <select class="form-select mb-3" aria-label="">
-                            <option selected>Rio de Janeiro - RJ</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
+                  </form>
+              </div>
+              <div class="delivery-services">
+                  <p class="delivery-services__title">Tipo de serviço para o trecho informado</p>
+                      <div class="row justify-content-center">
+                          <div class="col-md-6 col-lg-4">
+                              <div class="service-card-item">
+                                  <div class="service-card-item__top">
+                                      <div class="title">Rodoviário</div>
+                                      <img src="./images/delivery.svg" alt="delivery">
+                                      <p class="name">Previsão de entrega</p>
+                                      <p class="status">*Coletando hoje</p>
+                                  </div>
+                                  <div class="service-card-item__bottom">
+                                      <div class="bottom-user">
+                                          <p class="bottom-user__name">Pessoa jurídica</p>
+                                          <p class="bottom-user__info">
+                                              <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
+                                          </p>
+                                      </div>
+                                      <div class="bottom-user">
+                                          <p class="bottom-user__name">Pessoa jurídica</p>
+                                          <p class="bottom-user__info">
+                                              <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
+                                          </p>
+                                      </div>
+                                      <button class="btn btn-primary service-button">Enviar agora</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                              <div class="service-card-item">
+                                  <div class="service-card-item__top">
+                                      <div class="title">Rodoviário</div>
+                                      <img src="./images/delivery.svg" alt="delivery">
+                                      <p class="name">Previsão de entrega</p>
+                                      <p class="status">*Coletando hoje</p>
+                                  </div>
+                                  <div class="service-card-item__bottom">
+                                      <div class="bottom-user">
+                                          <p class="bottom-user__name">Pessoa jurídica</p>
+                                          <p class="bottom-user__info">
+                                              <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
+                                          </p>
+                                      </div>
+                                      <div class="bottom-user">
+                                          <p class="bottom-user__name">Pessoa jurídica</p>
+                                          <p class="bottom-user__info">
+                                              <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
+                                          </p>
+                                      </div>
+                                      <button class="btn btn-primary service-button">Enviar agora</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                              <div class="service-card-item">
+                                  <div class="service-card-item__top">
+                                      <div class="title">Rodoviário</div>
+                                      <img src="./images/delivery-plane.svg" alt="delivery">
+                                      <p class="name">Previsão de entrega</p>
+                                      <p class="status">*Coletando hoje</p>
+                                  </div>
+                                  <div class="service-card-item__bottom">
+                                      <div class="bottom-user">
+                                          <p class="bottom-user__name">Pessoa jurídica</p>
+                                          <p class="bottom-user__info">
+                                              <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
+                                          </p>
+                                      </div>
+                                      <div class="bottom-user">
+                                          <p class="bottom-user__name">Pessoa jurídica</p>
+                                          <p class="bottom-user__info">
+                                              <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
+                                          </p>
+                                      </div>
+                                      <button class="btn btn-primary service-button">Enviar agora</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                              <div class="service-card-item">
+                                  <div class="service-card-item__top">
+                                      <div class="title">Rodoviário</div>
+                                      <img src="./images/delivery-plane.svg" alt="delivery">
+                                      <p class="name">Previsão de entrega</p>
+                                      <p class="status">*Coletando hoje</p>
+                                  </div>
+                                  <div class="service-card-item__bottom">
+                                      <div class="bottom-user">
+                                          <p class="bottom-user__name">Pessoa jurídica</p>
+                                          <p class="bottom-user__info">
+                                              <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
+                                          </p>
+                                      </div>
+                                      <div class="bottom-user">
+                                          <p class="bottom-user__name">Pessoa jurídica</p>
+                                          <p class="bottom-user__info">
+                                              <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
+                                          </p>
+                                      </div>
+                                      <button class="btn btn-primary service-button">Enviar agora</button>
+                                  </div>
+                              </div>
+                          </div>
                       </div>
-                      <div class="col-md-6">
-                        <label for="selectFormOne" class="form-label">Cidade de destino</label>
-                        <select class="form-select mb-3" aria-label="Default select example">
-                            <option selected>Clique para escolher a cidade</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                      </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                              <button type="submit" class="btn btn-primary btn-submit">Sign in</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="delivery-services">
-                <p class="delivery-services__title">Tipo de serviço para o trecho informado</p>
-                    <div class="row justify-content-center">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="service-card-item">
-                                <div class="service-card-item__top">
-                                    <div class="title">Rodoviário</div>
-                                    <img src="./images/delivery.svg" alt="delivery">
-                                    <p class="name">Previsão de entrega</p>
-                                    <p class="status">*Coletando hoje</p>
-                                </div>
-                                <div class="service-card-item__bottom">
-                                    <div class="bottom-user">
-                                        <p class="bottom-user__name">Pessoa jurídica</p>
-                                        <p class="bottom-user__info">
-                                            <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
-                                        </p>
-                                    </div>
-                                    <div class="bottom-user">
-                                        <p class="bottom-user__name">Pessoa jurídica</p>
-                                        <p class="bottom-user__info">
-                                            <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
-                                        </p>
-                                    </div>
-                                    <button class="btn btn-primary service-button">Enviar agora</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="service-card-item">
-                                <div class="service-card-item__top">
-                                    <div class="title">Rodoviário</div>
-                                    <img src="./images/delivery.svg" alt="delivery">
-                                    <p class="name">Previsão de entrega</p>
-                                    <p class="status">*Coletando hoje</p>
-                                </div>
-                                <div class="service-card-item__bottom">
-                                    <div class="bottom-user">
-                                        <p class="bottom-user__name">Pessoa jurídica</p>
-                                        <p class="bottom-user__info">
-                                            <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
-                                        </p>
-                                    </div>
-                                    <div class="bottom-user">
-                                        <p class="bottom-user__name">Pessoa jurídica</p>
-                                        <p class="bottom-user__info">
-                                            <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
-                                        </p>
-                                    </div>
-                                    <button class="btn btn-primary service-button">Enviar agora</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="service-card-item">
-                                <div class="service-card-item__top">
-                                    <div class="title">Rodoviário</div>
-                                    <img src="./images/delivery-plane.svg" alt="delivery">
-                                    <p class="name">Previsão de entrega</p>
-                                    <p class="status">*Coletando hoje</p>
-                                </div>
-                                <div class="service-card-item__bottom">
-                                    <div class="bottom-user">
-                                        <p class="bottom-user__name">Pessoa jurídica</p>
-                                        <p class="bottom-user__info">
-                                            <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
-                                        </p>
-                                    </div>
-                                    <div class="bottom-user">
-                                        <p class="bottom-user__name">Pessoa jurídica</p>
-                                        <p class="bottom-user__info">
-                                            <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
-                                        </p>
-                                    </div>
-                                    <button class="btn btn-primary service-button">Enviar agora</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="service-card-item">
-                                <div class="service-card-item__top">
-                                    <div class="title">Rodoviário</div>
-                                    <img src="./images/delivery-plane.svg" alt="delivery">
-                                    <p class="name">Previsão de entrega</p>
-                                    <p class="status">*Coletando hoje</p>
-                                </div>
-                                <div class="service-card-item__bottom">
-                                    <div class="bottom-user">
-                                        <p class="bottom-user__name">Pessoa jurídica</p>
-                                        <p class="bottom-user__info">
-                                            <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
-                                        </p>
-                                    </div>
-                                    <div class="bottom-user">
-                                        <p class="bottom-user__name">Pessoa jurídica</p>
-                                        <p class="bottom-user__info">
-                                            <img src="./images/calendar.svg"></img> <span>Até 6 dias</span>
-                                        </p>
-                                    </div>
-                                    <button class="btn btn-primary service-button">Enviar agora</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="delivery-info">
-                <p class="warning">*Fique atento</p>
-                <p class="delivery-text mb-0">Previsão de entrega considerando coletas realizadas no dia de hoje</p>
-                <p class="delivery-text mb-2">Caso a cidade de origem ou destino não seja atendida com frequência diária, você pode ganhar agilidade levando ou retirando sua encomenda em nossa unidade</p>
-                <button class="btn btn-outline-primary">VER UNIDADES</button>
-            </div>
-        </div>
-     </div>
+              </div>
+              <div class="delivery-info">
+                  <p class="warning">*Fique atento</p>
+                  <p class="delivery-text mb-0">Previsão de entrega considerando coletas realizadas no dia de hoje</p>
+                  <p class="delivery-text mb-2">Caso a cidade de origem ou destino não seja atendida com frequência diária, você pode ganhar agilidade levando ou retirando sua encomenda em nossa unidade</p>
+                  <button class="btn btn-outline-primary">VER UNIDADES</button>
+              </div>
+          </div>
+       </div>
+    </div>
 
 
     <!-- footer -->

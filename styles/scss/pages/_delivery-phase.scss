@@ -1,31 +1,4 @@
 .delivery{
-    &__inner{
-        padding-block: 80px;
-    }
-    .link-back-to-home{
-        display: inline-flex;
-        align-items: center;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 19.2px;
-        text-transform: uppercase;
-        margin-bottom: 24px;
-        color: #00002E;
-        &__icon{
-            margin-right: 8px;
-        }
-    }
-    .delivery-form{
-        padding: 32px;
-        border-radius: 24px;
-        border: 1px solid  #E5E5E5;
-        background:  #FAFAFA;
-        &__title{
-            max-width: 50%;
-            font-size: 18px;
-            font-weight: 500;
-        }
-    }
     .delivery-services{
         &__title{
             font-size: 32px;

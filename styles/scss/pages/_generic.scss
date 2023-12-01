@@ -1,0 +1,16 @@
+.page-wrapper{
+    padding-block: 80px;
+    .link-back-to-home{
+        display: inline-flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.2px;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+        color: var(--color-primary);
+        &__icon{
+            margin-right: 8px;
+        }
+    }
+}

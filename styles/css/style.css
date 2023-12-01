@@ -75,6 +75,8 @@ h3 {
 
 h4 {
   font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
 }
 
 h5 {
@@ -326,7 +328,16 @@ footer {
 }
 
 .form-redonaves {
-  --input-bg:#f5f5f5;
+  --input-bg: #f5f5f5;
+  padding: 32px;
+  border-radius: 24px;
+  border: 1px solid #e5e5e5;
+  background: #fafafa;
+}
+.form-redonaves .form-header {
+  max-width: 50%;
+  font-size: 18px;
+  font-weight: 500;
 }
 .form-redonaves .form-group {
   margin-block: 40px;
@@ -412,6 +423,23 @@ footer {
 }
 .service-card-item__bottom .service-button {
   width: 100%;
+}
+
+.page-wrapper {
+  padding-block: 80px;
+}
+.page-wrapper .link-back-to-home {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  color: var(--color-primary);
+}
+.page-wrapper .link-back-to-home__icon {
+  margin-right: 8px;
 }
 
 p,
@@ -1053,33 +1081,6 @@ button:hover {
     height: auto;
   }
 }
-.delivery__inner {
-  padding-block: 80px;
-}
-.delivery .link-back-to-home {
-  display: inline-flex;
-  align-items: center;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 19.2px;
-  text-transform: uppercase;
-  margin-bottom: 24px;
-  color: #00002E;
-}
-.delivery .link-back-to-home__icon {
-  margin-right: 8px;
-}
-.delivery .delivery-form {
-  padding: 32px;
-  border-radius: 24px;
-  border: 1px solid #E5E5E5;
-  background: #FAFAFA;
-}
-.delivery .delivery-form__title {
-  max-width: 50%;
-  font-size: 18px;
-  font-weight: 500;
-}
 .delivery .delivery-services__title {
   font-size: 32px;
   line-height: 38px;
@@ -1099,4 +1100,8 @@ button:hover {
   line-height: 18px;
   font-weight: 300;
   margin-bottom: 0;
+}
+
+.address-locator .form-redonaves {
+  margin-bottom: 56px;
 }/*# sourceMappingURL=style.css.map */
