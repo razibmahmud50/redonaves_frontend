@@ -26,10 +26,10 @@ input, textarea, button, select{
        cursor: not-allowed;
 }
 body{
-	font-family: $body-font;
+	font-family: var(--body-font);
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: $header-font;
+	font-family: var(--header-font);
 }
 h1{
     font-size: 72px;
@@ -58,4 +58,10 @@ a{
 ul{
    list-style: none;
    padding-left: 0;
+   margin-bottom: 0;
+}
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1120px;
+    }
 }

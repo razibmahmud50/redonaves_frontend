@@ -1,26 +1,31 @@
-// fonts
-$body-font: 'GT-Walsheim'; 
-$header-font: 'GT-Walsheim';
 
-//color
-$color-white:#ffffff;
-$color-black:#000000;
-$color-primary:#800080;
-$color-secondary:#0070F7;
-$color-success:#28a745;
-$color-danger:#dc3545;
-$color-warning:#ffc107;
-$color-info:#17a2b8;
+:root{
+    // fonts
+    --body-font: 'GT-Walsheim'; 
+    --header-font: 'GT-Walsheim';
+    
+    //color
+    --color-white:#ffffff;
+    --color-black:#000000;
+    --color-primary:#00002E;
+    --color-secondary:#0000ff;
+    --color-success:#28a745;
+    --color-danger:#dc3545;
+    --color-warning:#ffc107;
+    --color-info:#17a2b8;
+    
+    //background
+    --bg-white:#ffffff;
+    --bg-black:#000000;
+    --bg-primary:#0000ff;
+    --bg-secondary:#0070F7;
+    --bg-success:#28a745;
+    --bg-danger:#dc3545;
+    --bg-warning:#ffc107;
+    --bg-info:#17a2b8;
+    
+    // shadow
 
-//background
-$bg-white:#ffffff;
-$bg-black:#000000;
-$bg-primary:#800080;
-$bg-secondary:#0070F7;
-$bg-success:#28a745;
-$bg-danger:#dc3545;
-$bg-warning:#ffc107;
-$bg-info:#17a2b8;
+}
 
-// shadow
 
