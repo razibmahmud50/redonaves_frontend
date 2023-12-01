@@ -5,63 +5,81 @@
 // Version: 1.0
 
 //Global Style
-*, *::before, *::after{
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-img, picture, svg, video{
-    display: block;
-    max-width: 100%;
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
 }
-input, textarea, button, select{
-    font: inherit;
+input,
+textarea,
+button,
+select {
+  font: inherit;
 }
-:focus{
-	box-shadow: none;
+:focus {
+  box-shadow: none;
 }
 :disabled {
-       cursor: not-allowed;
+  cursor: not-allowed;
 }
-body{
-	font-family: var(--body-font);
+body {
+  font-family: var(--body-font);
 }
-h1,h2,h3,h4,h5,h6{
-	font-family: var(--header-font);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header-font);
 }
-h1{
-    font-size: 72px;
+// h1{
+//     font-size: 72px;
+// }
+h2 {
+  font-size: 48px;
 }
-h2{
-    font-size: 48px;
+h3 {
+  font-size: 36px;
 }
-h3{
-    font-size: 36px;
+h4 {
+  font-size: 32px;
 }
-h4{
-    font-size: 32px;
+h5 {
+  font-size: 22px;
 }
-h5{
-    font-size: 22px;
+h6 {
+  font-size: 18px;
 }
-h6{
-    font-size: 18px;
+p {
+  font-size: 16px;
 }
-p{
-	font-size: 16px;
+a {
+  text-decoration: none;
 }
-a{
-	text-decoration: none;
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
 }
-ul{
-   list-style: none;
-   padding-left: 0;
-   margin-bottom: 0;
-}
-@media (min-width: 1400px){
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1120px;
-    }
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  @media (min-width: 1400px) {
+    max-width: 1120px;
+  }
 }

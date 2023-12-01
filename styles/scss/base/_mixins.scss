@@ -8,8 +8,4 @@
   @media only screen and (min-width: $min-width) { @content; }
 }
 
-// rem to pixel
-@function rem($size) {
-  @return calc($size / 16px) * 1rem;
-}
 
