@@ -1,0 +1,127 @@
+.tracker {
+  .product-status-top {
+    padding-block: 24px;
+    text-align: center;
+    .date {
+      font-size: 28px;
+      line-height: 33px;
+      font-weight: 700;
+      color: var(--color-secondary);
+    }
+  }
+  .product-status-info {
+    border-radius: 24px;
+    border: 1px solid #f5f5f5;
+    background: #fafafa;
+    padding: 24px 16px;
+    .info-item {
+      text-align: center;
+      .title {
+        color: #737373;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18.2px;
+        margin-bottom: 4px;
+      }
+      .desc {
+        color: #00002e;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .product-status-card {
+    border-radius: 24px;
+    background: #fafafa;
+    padding: 32px 16px;
+    margin-block: 24px;
+    .status-card-item {
+      text-align: center;
+      .card-item-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border-radius: 16px;
+        background: #00d2cd;
+        width: 112px;
+        height: 112px;
+        margin-inline: auto;
+        margin-bottom: 16px;
+        &.disabled {
+          background-color: #d4d4d4;
+        }
+      }
+      &__title {
+        color: #00002e;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-bottom: 4px;
+      }
+      &__date {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 300;
+      }
+    }
+  }
+  .product-status-date {
+    margin-block: 24px;
+    padding-block: 24px;
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 7px;
+      &:last-child{
+        .desc-wrapper{
+            &::before{
+                display: none;
+            }
+        }
+      }
+      &.disabled{
+        .date, .desc-wrapper{
+            color: #A3A3A3;
+        }
+        .desc-wrapper{
+            &::before{
+                background-color: #A3A3A3;
+            }
+        }
+        .desc-img{
+            circle{
+                stroke: #A3A3A3;
+            }
+        }
+      }
+      .date {
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .desc-wrapper {
+        display: flex;
+        align-items: center;
+        color: var(--color-secondary);
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            left: 22px;
+            bottom: -13px;
+            height: 20px;
+            width: 1px;
+            background-color: var(--color-secondary);
+        }
+        .desc-img{
+            margin-inline: 16px;
+        }
+        .desc{
+            font-weight: 500;
+        }
+      }
+    }
+  }
+}

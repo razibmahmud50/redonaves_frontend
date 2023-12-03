@@ -347,7 +347,7 @@ footer {
   font-weight: 700;
   line-height: 24px;
 }
-.form-redonaves .form-select {
+.form-redonaves .form-select, .form-redonaves .form-control {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -440,6 +440,24 @@ footer {
 }
 .page-wrapper .link-back-to-home__icon {
   margin-right: 8px;
+}
+.page-wrapper .delivery-info .warning {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #FFB500;
+}
+.page-wrapper .delivery-info .delivery-text {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.page-wrapper .delivery-info .btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 8px;
 }
 
 p,
@@ -1089,18 +1107,6 @@ button:hover {
   margin-bottom: 48px;
   text-align: center;
 }
-.delivery .delivery-info .warning {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 700;
-  color: #FFB500;
-}
-.delivery .delivery-info .delivery-text {
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 300;
-  margin-bottom: 0;
-}
 
 .address-locator {
   --locator-details-bg: #fafafa;
@@ -1169,4 +1175,120 @@ button:hover {
 }
 .address-locator .address-locator-details .locator-bottom .locator-card .phone {
   align-items: center;
+}
+
+.tracker .product-status-top {
+  padding-block: 24px;
+  text-align: center;
+}
+.tracker .product-status-top .date {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+.tracker .product-status-info {
+  border-radius: 24px;
+  border: 1px solid #f5f5f5;
+  background: #fafafa;
+  padding: 24px 16px;
+}
+.tracker .product-status-info .info-item {
+  text-align: center;
+}
+.tracker .product-status-info .info-item .title {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.2px;
+  margin-bottom: 4px;
+}
+.tracker .product-status-info .info-item .desc {
+  color: #00002e;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.tracker .product-status-card {
+  border-radius: 24px;
+  background: #fafafa;
+  padding: 32px 16px;
+  margin-block: 24px;
+}
+.tracker .product-status-card .status-card-item {
+  text-align: center;
+}
+.tracker .product-status-card .status-card-item .card-item-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 16px;
+  background: #00d2cd;
+  width: 112px;
+  height: 112px;
+  margin-inline: auto;
+  margin-bottom: 16px;
+}
+.tracker .product-status-card .status-card-item .card-item-box.disabled {
+  background-color: #d4d4d4;
+}
+.tracker .product-status-card .status-card-item__title {
+  color: #00002e;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+.tracker .product-status-card .status-card-item__date {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+}
+.tracker .product-status-date {
+  margin-block: 24px;
+  padding-block: 24px;
+}
+.tracker .product-status-date li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.tracker .product-status-date li:last-child .desc-wrapper::before {
+  display: none;
+}
+.tracker .product-status-date li.disabled .date, .tracker .product-status-date li.disabled .desc-wrapper {
+  color: #A3A3A3;
+}
+.tracker .product-status-date li.disabled .desc-wrapper::before {
+  background-color: #A3A3A3;
+}
+.tracker .product-status-date li.disabled .desc-img circle {
+  stroke: #A3A3A3;
+}
+.tracker .product-status-date li .date {
+  font-size: 16px;
+  font-weight: 400;
+}
+.tracker .product-status-date li .desc-wrapper {
+  display: flex;
+  align-items: center;
+  color: var(--color-secondary);
+  position: relative;
+}
+.tracker .product-status-date li .desc-wrapper::before {
+  content: "";
+  position: absolute;
+  left: 22px;
+  bottom: -13px;
+  height: 20px;
+  width: 1px;
+  background-color: var(--color-secondary);
+}
+.tracker .product-status-date li .desc-wrapper .desc-img {
+  margin-inline: 16px;
+}
+.tracker .product-status-date li .desc-wrapper .desc {
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

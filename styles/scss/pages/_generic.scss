@@ -13,4 +13,24 @@
             margin-right: 8px;
         }
     }
+    .delivery-info{
+        .warning{
+            font-size: 18px;
+            line-height: 21px;
+            font-weight: 700;
+            color: #FFB500;
+        }
+        .delivery-text{
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 300;
+            margin-bottom: 0;
+        }
+        .btn{
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 18px;
+            border-radius: 8px;
+        }
+    }
 }
